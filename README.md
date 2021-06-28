@@ -12,5 +12,5 @@
 
  - `http://92.63.102.202:8080/readfile`
 
- File reading. There is only one input parametr `timeout`. By default `timeout = 5 sec`.
+ File reading. There is only one input parametr `timeout` (in milliseconds). By default `timeout = 5 sec`.
  For the most correct work please use HTTP/2 (for concurrent requests). For example: `nghttp -v http://92.63.102.202:8080/readfile?timeout=100`
