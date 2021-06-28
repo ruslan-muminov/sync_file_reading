@@ -1,0 +1,11 @@
+.erlang.mk
+_rel
+deps
+ebin/*.beam
+logs
+relx
+leenwo.d
+erl_crash.dump
+config
+relx.config
+ssl
